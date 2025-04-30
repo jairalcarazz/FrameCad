@@ -19,7 +19,7 @@ class CADApp(QMainWindow):
         self.currentTool = None
 
     def initUI(self):
-        self.setWindowTitle('CAD para Dibujo Rápido de Paredes')
+        self.setWindowTitle('FramerCad')
         self.setGeometry(100, 100, 1000, 800)
 
         self.createMenus()
